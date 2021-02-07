@@ -33,17 +33,17 @@ Run Application:
 ```bash
 python3.8 app/src/server.py
 ```
-## Docker Image BUild
+## Docker Image Build
 
 Build Image
 ```bash
 docker image build -t <your-tag> .
 ```
-## Push Image
+Push Image
 ```bash
 docker image push <your-image>
 ```
 ## Run Container
 ```bash
-docker conatiner run -d --name sampleapp -p <hostport> <your-image-name>
+docker conatiner run -d --name sampleapp -p <hostport>:5000  <your-image-name>
 ```
