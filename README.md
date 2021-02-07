@@ -1,4 +1,4 @@
-# Simple Flask App -Docker
+# Simple Python Flask App -Docker
 
 Simple app built on Python Flask.
 
