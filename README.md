@@ -10,7 +10,6 @@ Simple app built on Python Flask.
 
 * Python pip
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ## Usage
 Clone Repository:
@@ -45,5 +44,5 @@ docker image push <your-image>
 ```
 ## Run Container
 ```bash
-docker conatiner run -d --name sampleapp -p <hostport>:5000  <your-image-name>
+docker container run -d --name sampleapp -p <hostport>:5000  <your-image-name>
 ```
