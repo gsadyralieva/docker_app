@@ -9,9 +9,9 @@ server = Flask(__name__)
 def home():
     return  render_template('index.html')
 
-@server.route("/sample")
-def sample():
-    return "This is sample!"
+@server.route("/about")
+def about():
+    return  render_template('about.html')
     
 if __name__=="__main__":
   server.run(host='0.0.0.0')
