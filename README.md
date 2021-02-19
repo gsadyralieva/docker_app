@@ -12,6 +12,8 @@ Simple app built on Python Flask.
 │       └── templates
 │           ├── about.html
 │           └── index.html
+├── docker-compose
+│   └── docker-compose.yaml
 ├── Dockerfile
 └── README.md
 ```
