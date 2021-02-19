@@ -1,0 +1,12 @@
+services:
+
+  app:
+    image: gulburak/pythonapp:v5
+    build: 
+      context: ../
+      dockerfile: Dockerfile
+    ports:
+      - "8080:5000"
+ 
+   
+    
