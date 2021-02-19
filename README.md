@@ -57,9 +57,24 @@ Push Image
 ```bash
 docker image push <your-image>
 ```
-## Run Container
+## Run Docker Container
 ```bash
 docker container run -d --name sampleapp -p <hostport>:5000  <your-image-name>
 ```
+## Docker-Compose
+
+Change Directory
+```
+cd docker-compose
+```
+
+* NOTE : Modify docker-compose.yaml file (optional)
+
+Build Image and Run Container
+```
+docker-compose up -d --build
+```
+
+
 
 
