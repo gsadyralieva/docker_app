@@ -85,6 +85,11 @@ Build Image and Run Container
 docker-compose up -d --build
 ```
 
+Run Services defined on docker-compose-dev.yaml file
+
+```
+docker-compose -f docker-compose-dev.yaml up -d --build
+```
 
 
 

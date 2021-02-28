@@ -1,12 +1,25 @@
 services:
 
   app:
-    image: gulburak/pythonapp:v5
+    image: gulburak/pythonapp:v6
     build: 
       context: ../
       dockerfile: Dockerfile
+    container_name: myapp
     ports:
       - "8080:5000"
+    networks:
+      - myapp_network
+    restart:
+      on-failure
+    volumes:
+      - myapp_volume:/code
+
+networks:
+  myapp_network: {}
+
+volumes:
+  myapp_volume:
  
    
     
